@@ -1,0 +1,22 @@
+server:
+  port: 8100
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: service-member
+####swagger相关配置
+swagger:
+  base-package: com.bluetao.menber.service
+  title: SpringCloud2.x构建微服务电商项目-会员服务接口
+  description: 我的微服务电商项目接口
+  version: 1.1
+#  contact:
+#    name: 97后互联网架构师-余胜军
+#    email: 644064779@qq.com
+
+
