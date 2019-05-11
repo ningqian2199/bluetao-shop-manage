@@ -10,6 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>bluetao-shop-common</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>bluetao-shop-common-core</module>
+    </modules>
 
 
 </project>

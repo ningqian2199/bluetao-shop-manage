@@ -12,7 +12,8 @@
     <artifactId>bluetao-shop-service-api</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>bluetao-shop-service-api-menber</module>
+        <module>bluetao-shop-service-api-member</module>
+        <module>bluetao-shop-service-api-weixin</module>
     </modules>
     <dependencies>
 

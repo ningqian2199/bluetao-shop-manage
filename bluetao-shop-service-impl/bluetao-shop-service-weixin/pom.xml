@@ -8,17 +8,26 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+    <properties >
+        <weixin-java-mp.version>3.3.8.B</weixin-java-mp.version>
+    </properties>
 
-    <artifactId>bluetao-shop-service-menber</artifactId>
+    <artifactId>bluetao-shop-service-weixin</artifactId>
     <dependencies>
+
         <dependency>
-            <artifactId>bluetao-shop-service-api-menber</artifactId>
+            <groupId>com.github.binarywang</groupId>
+            <artifactId>weixin-java-mp</artifactId>
+            <version>${weixin-java-mp.version}</version>
+        </dependency>
+        <dependency>
+            <artifactId>bluetao-shop-common-core</artifactId>
             <groupId>com.bluetao</groupId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
             <dependency>
-                <artifactId>bluetao-shop-common-core</artifactId>
+                <artifactId>bluetao-shop-service-api-weixin</artifactId>
                 <groupId>com.bluetao</groupId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>

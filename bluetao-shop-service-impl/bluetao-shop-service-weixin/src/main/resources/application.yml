@@ -1,5 +1,5 @@
 server:
-  port: 8100
+  port: 8200
 eureka:
   client:
     service-url:
@@ -8,8 +8,8 @@ eureka:
     prefer-ip-address: true
 spring:
   application:
-    name: service-member
-###redis配置
+    name: service-weixin
+  ###redis配置
   redis:
     host: 47.100.112.202
     jedis:
@@ -26,8 +26,17 @@ swagger:
   title: SpringCloud2.x构建微服务电商项目-会员服务接口
   description: 我的微服务电商项目接口
   version: 1.1
-#  contact:
-#    name: 97后互联网架构师-余胜军
-#    email: 644064779@qq.com
+
+logging:
+  level:
+    org.springframework.web: INFO
+    com.github.binarywang.demo.wx.mp: DEBUG
+    me.chanjar.weixin: DEBUG
+wx:
+  mp:
+    configs:
+      - appId: wx84eccc633d4595a4 #（一个公众号的appid）
+        secret: a4e27dbbca45b35c6a0469bf933e95b2 #（公众号的appsecret）
+        token: bluetao #（接口配置里的Token值）
 
 
