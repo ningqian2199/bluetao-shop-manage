@@ -1,4 +1,4 @@
-package com.bluetao.weixin;
+package com.bluetao;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,9 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author Binary Wang(https://github.com/binarywang)
  */
 @SpringBootApplication
-public class WxMpDemoApplication {
+public class WxApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(WxMpDemoApplication.class, args);
+        SpringApplication.run(WxApplication.class, args);
     }
 }

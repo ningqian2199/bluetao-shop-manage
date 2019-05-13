@@ -20,6 +20,11 @@ spring:
         min-idle: 0
     port: 6379
     timeout: 3000
+##日志打印
+logging:
+  level:
+    com.bluetao.member.mapper: DEBUG
+
 ####swagger相关配置
 swagger:
   base-package: com.bluetao.menber.service
@@ -29,5 +34,3 @@ swagger:
 #  contact:
 #    name: 97后互联网架构师-余胜军
 #    email: 644064779@qq.com
-
-

@@ -10,6 +10,7 @@
         <module>bluetao-shop-service-impl</module>
         <module>bluetao-shop-common</module>
         <module>bluetao-shop-basics</module>
+        <module>bluetao-shop-api-dto</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
